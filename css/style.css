@@ -132,28 +132,13 @@ textarea {
     margin: 3em 0 1.5em 0;
   }
 
-  a {
-    text-decoration: none;
-  }
-
-  /* unvisited link */
-  a:link {
-    color: #1562c1;
-  }
-
-  /* visited link */
-  a:visited {
-    color: #1562c1;
+  a:link, a:visited {
+    color: #111;
   }
 
   /* mouse over link */
-    a:hover {
-  color: #0c1a2a;
-  }
-
-  /* selected link */
-  a:active {
-    color: #0c1a2a;
+  a:hover, a:active {
+    color: #127369;
   }
 
   .sociallinks {
